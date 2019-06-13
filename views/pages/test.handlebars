@@ -1,0 +1,11 @@
+<script>
+    const form = new FormData();
+    form.append('name','Mohammad');
+
+    fetch('/users',{
+        method:"POST",
+        headers:{
+        },
+        body:form
+    })
+</script>
